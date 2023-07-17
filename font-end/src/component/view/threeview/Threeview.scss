@@ -1,0 +1,29 @@
+.back {
+    width: 80%;
+    height: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border: 1px dashed;
+    border-radius: 30px;
+
+    P{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    form {
+        padding-top:  50px;
+        text-align: center;
+        margin: auto;
+    }
+
+    form > *{
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

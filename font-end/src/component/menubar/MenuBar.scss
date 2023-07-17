@@ -1,0 +1,58 @@
+.app {
+  background-color: #3454d1;
+  width: 100%;
+  padding:5px;
+  text-align: center;
+
+  .switch-background {
+    width: 250px;
+    z-index: 1;
+    margin: auto;
+    background-color: #2a3d89;
+    border-radius: 100px;
+    position: relative;
+  }
+
+  .toggle {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    padding: 5px;
+
+    .slide-true {
+      width: 50%;
+      transform: translateX(100%);
+      height: 100%;
+      border-radius: 100px;
+      z-index: 2;
+      background-color: #ffffff;
+      transition: 0.4s;
+    }
+
+    .slide-false {
+      width: 50%;
+      transform: translateX(0%);
+      height: 100%;
+      border-radius: 50px;
+      z-index: 2;
+      background-color: #ffffff;
+      transition: 0.4s;
+    }
+  }
+
+  .toggle-title {
+    z-index: 3;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  p{
+    transition: 0.4s;
+    padding: 0;
+    margin: 15px;
+  }
+}
